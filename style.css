@@ -8,6 +8,7 @@ html{
 }
 li{
     list-style: none;
+    cursor: pointer;
 }
 a{
     text-decoration: none;
@@ -23,13 +24,105 @@ main{
     text-align: center;
     margin-top: 65px;
 }
+main .main-section .tittle-div h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+}
 main .main-section .content-div{
     display: flex;
     justify-content: center;
-    width: 400px;
+    width: max-content;
     margin: 0 auto;
 }
-main .main-section .image-div img{
+main .content-div p{
+    font-size: 1.3rem;
+    color: #54595d;
+    margin-top: 5px;
+}
+main .content-div .left-ul .spanish{
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+main .content-div .left-ul .japanese{
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+main .content-div .left-ul .russian{
+    margin-right: 100px;
+    margin-bottom: 20px;
+    
+}
+main .content-div .left-ul .italian{
+    margin-right: 60px;
+    margin-bottom: 20px;    
+}
+main .content-div .left-ul .portuguese{
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+main .main-section .image-div{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/de/Wikipedia_Logo_1.0.png');
+    background-repeat: no-repeat;
+    background-size: contain;
     width: 200px;
     margin-top: 45px;
+}
+main .content-div .right-ul .english{
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+main .content-div .right-ul .german{
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+main .content-div .right-ul .french{
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+main .content-div .right-ul .chinese{
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+main .content-div .right-ul .polish{
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+main .input-section{
+    width: 100%;
+}
+main .input-section div{
+    width: 400px;
+    height: 40px;
+    border: 1px solid #d3d6da;
+    border-radius: 2px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .input-section div input{
+    width: 335px;
+    height: 38px;
+    border: none;
+    outline: none;
+    margin-left: 12px;
+}
+main .input-section div a{
+    background-image: url('/lupa.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+}
+main .button-section{
+    width: 100%;
+}
+main .button-section button{
+    height: 35px;
+    padding: 0 30px;
+    color: #3366cc;
+    border: 1px solid #d3d6da;
+    border-radius: 2px;
 }
