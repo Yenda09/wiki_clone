@@ -24,7 +24,7 @@ main{
     text-align: center;
     margin-top: 65px;
 }
-main .main-section .tittle-div h1{
+main .main-section .tittle-div h2{
     font-family: 'Times New Roman', Times, serif;
     font-size: 4rem;
 }
@@ -102,7 +102,7 @@ main .input-section div{
     align-items: center;
 }
 main .input-section div input{
-    width: 335px;
+    width: 336px;
     height: 38px;
     border: none;
     outline: none;
@@ -128,40 +128,68 @@ main .button-section button{
 }
 footer{
     width: 100%;
+    height: 450px;
     display: flex;
+    margin-top: 40px;
     margin-bottom: 0px;
+    border-top: 1px solid #d3d6da;
 }
 .footer-left-section{
-    width: 35%;
-}
-.footer-left-section .fls-div img{
-    width: 40px;
+    width: 38%;
+    margin-top: 50px;
 }
 .footer-left-section .fls-div{
-    width: 285px;
+    width: 350px;
     display: flex;
     margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #54595d;
+    font-size: 1.4rem;
+    padding: 10px;
+    border-radius: 4px;
+}
+.footer-left-section .fls-div img{
+    width: 50px;
+    margin-right: 10px;
+}
+.footer-left-section .fls-div .fls-div_B2 h4{
+    margin-bottom: 10px;
+}
+.footer-left-section .fls-div .fls-div_B2 #div_B2{
+    background-color: #f8f9fa;
+}
+.footer-left-section .fls-div .fls-div_B2 img{
+    width: 220px;
 }
 .footer-right-section{
-    height: 500px;
-    width: 75%;
+    height: 350px;
+    width: 72%;
 }
 .footer-right-section ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
 }
 .footer-right-section ul li{
     display: flex;
-    border: 1px solid black;
+    margin-bottom: 30px;
+    font-size: 1.3rem;
 }
-.footer-right-section ul li div img{
-    width: 50px;
-    text-align: center;
+.footer-right-section .frs_li .li_div{
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
 }
-div p{
+.footer-right-section .frs_li .li_div a span{
+    margin-bottom: 5px;
+}
+.footer-right-section .frs_li .li_div a p{
     margin-top: 5px;
     color: #54595d;
+    font-size: 1.25rem;
 }
-h4{
-    margin-bottom: 5px;
+.footer-right-section ul li div img{
+    width: 55px;
+    text-align: center;
 }
